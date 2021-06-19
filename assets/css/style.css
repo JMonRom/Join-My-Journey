@@ -1,0 +1,101 @@
+
+body {
+  /* sets font family for entire body of page */
+  font-family: Verdana, Geneva, Tahoma;
+  margin: 0;
+  background: #222;
+  font-weight: 300;
+}
+
+/* sets width and margin for header */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* sets background color for header */
+header {
+  background: #8c65d3;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* sets nav to the right in header */
+nav {
+  float: right;
+}
+
+/* sets margin, padding, and removes bullet points from nav */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+nav li {
+  /* sets display of nav side by side */
+  display: inline-block;
+  /* sers spacing between nav bar option* */
+  margin-left: 70px;
+  /*sets top padding of nav bar to max of 30px */
+  padding-top: 30px;
+  /*  */
+  position: relative;
+}
+
+nav a {
+  /* changes text color of nav bar items */
+  color: #004159;
+  /* removes bullet points from listed items */
+  text-decoration: none;
+  /* sets nav bar words to be capitalized */
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+/* sets text color to black when you hover over nav bar options */
+nav a:hover {
+  color: #222;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  /* sets height of black line above nav bar options */
+  height: 4px;
+  /* sets width of black line to 0, making it not visible to add hover effect */
+  width: 0%;
+  background-color: #222;
+  /* sets the black line relative to contents of nav li */
+  position: absolute;
+  /* sets black line at the top of page */
+  top: 0;
+}
+
+/* provides hover effect and makes black line visible above nav options */
+nav a:hover::before {
+  /* sets width of black line when hovered over */
+  width: 100%;
+}
+
+/* sets h1 to the left in header */
+#h1 {
+  float: left;
+  color: #004159;
+}
+
+.center {
+
+}
+
+#my-image {
+  
+}
+
+
+

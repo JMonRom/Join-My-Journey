@@ -1,9 +1,15 @@
+:root {
+  --colorOne: #8c65d3;
+  --colorTwo: #004159;
+  --colorThree: #ffff; 
+  --colorFour: #222;
+}
 
 body {
   /* sets font family for entire body of page */
   font-family: Verdana, Geneva, Tahoma;
   margin: 0;
-  background: #222;
+  background: var(--colorThree);
   font-weight: 300;
 }
 
@@ -15,7 +21,7 @@ body {
 
 /* sets background color for header */
 header {
-  background: #8c65d3;
+  background: var(--colorOne);
 }
 
 header::after {
@@ -50,7 +56,7 @@ nav li {
 
 nav a {
   /* changes text color of nav bar items */
-  color: #004159;
+  color: var(--colorTwo);
   /* removes bullet points from listed items */
   text-decoration: none;
   /* sets nav bar words to be capitalized */
@@ -83,10 +89,46 @@ nav a:hover::before {
   width: 100%;
 }
 
+/* allows navigation to navbar selections */
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 /* sets h1 to the left in header */
 h1 {
   float: left;
-  color: #004159;
+  color: var(--colorTwo);
+}
+
+.my-projects {
+  width: 75%;
+  display: inline-block;
+  margin-left: 300px;
+}
+
+.projects {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 100px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: var(--colorOne);
+  color: var(--colorThree);
+}
+
+.contact-me {
+  width: 75%;
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.contact-me {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 100px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: var(--colorOne);
+  color: var(--colorThree);
 }
 
 /* sets screen size for when on mobile screen  */

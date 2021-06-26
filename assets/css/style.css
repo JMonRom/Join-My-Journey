@@ -84,7 +84,7 @@ nav a:hover::before {
 }
 
 /* sets h1 to the left in header */
-#h1 {
+h1 {
   float: left;
   color: #004159;
 }

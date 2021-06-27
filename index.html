@@ -11,7 +11,7 @@
 <body>
  
 <!--contains header name and nav bar options  -->
-<header>
+<header class="main-header">
   <div class="container">
     <h1>Jonathan's Portfolio</h1>
     <nav>
@@ -31,42 +31,39 @@
 </header>
 
 <!-- contains name and up to date photo of self -->
-  <hero>
-    <div class="center">
-      <h2>Jonathan Montes Romero</h2>
-      <img src="https://via.placeholder.com/300" alt="Placeholder">
-    </div>
-  </hero>
+<section>
+  <div class="my-bio">
+    <img class="my-image" src="./assets/images/Selfie.png" alt="Jonathan's selfie">
+    <aside class="about-me" id="about-me">
+      <!-- review for fix -->
+      <h3>About Me</h3>
+      <p>
+        My name is <strong>Jonathan Montes Romero</strong> and have lived in Orange County, CA for about 21 years. I went to UCSB for my Bachelors in Sociology and minor in Education. I have started to learn about web development through the UCI coding bootcamp to further expand my skill set. I have deployed a few projects to help me gain an understanding of coding. This page is dedicated to show my knowledge, experience and progress as I continue to learn how to program.  
+      </p>
+    </aside>
+  </div>
+</section>
 
 <!--Area to  place info and images on projects I haved worked on.  -->
-  <section class="my-projects">
+  <main>
    
-    <aside class="projects" id="projects">
-      <img src="#" alt="#">
-      <h3>Projects</h3>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis asperiores accusantium ad amet illum impedit tempora totam, sed culpa ex fuga maiores, soluta explicabo eum dolores esse, et facere. Corporis.
-      </p>
-    </aside>
+    <section class="projects" id="projects">
+      <header>Project 1</header>
+      <img id="project-1" src="https://via.placeholder.com/150" alt="#">
+      
+    </section>
 
-    <aside class="projects" >
-      <img src="#" alt="#">
-      <h3>Projects</h3>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis asperiores accusantium ad amet illum impedit tempora totam, sed culpa ex fuga maiores, soluta explicabo eum dolores esse, et facere. Corporis.
-      </p>
-    </aside>
+    <section class="projects" >
+      <header>Project 2</header>
+      <img src="https://via.placeholder.com/150" alt="#">
+    </section>
 
-    <aside class="projects" >
-      <img src="#" alt="#">
-      <h3>Projects</h3>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis asperiores accusantium ad amet illum impedit tempora totam, sed culpa ex fuga maiores, soluta explicabo eum dolores esse, et facere. Corporis.
-      </p>
-    </aside>
+    <section class="projects" >
+      <header>Project 3</header>
+      <img src="https://via.placeholder.com/150" alt="#">
+    </section>
 
-    <div id="contact-me" class="contact-me">
-      <img src="#" alt="#">
+    <section id="contact-me" class="contact-me">
       <h4>Contact Me</h4>
       <p>
         <ul>
@@ -75,13 +72,13 @@
           <li>Phone: (XXX)-XXX-XXXX</li>
         </ul>
       </p>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <footer>
     <h5>Made by Jonathan</h5>
     <p>
-      &copy; 2021 Jonathan, Inc.
+      &copy; 2021 Jonathan Website, Inc.
     </p>
   </footer>
 </body>

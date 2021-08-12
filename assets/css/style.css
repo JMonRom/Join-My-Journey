@@ -5,6 +5,11 @@
   --colorFour: #222;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   /* sets font family for entire body of page */
   font-family: Verdana, Geneva, Tahoma;
@@ -14,7 +19,7 @@ body {
 }
 
 /* sets width and margin for header */
-.container {
+.navigate {
   width: 90%;
   margin: 0 auto;
 }
@@ -100,9 +105,12 @@ h1 {
   color: var(--colorTwo);
 }
 
+h3 {
+  margin-top: 2%;
+}
+
 h2,
-h3,
-h4 {
+h3 {
   color: var(--colorThree);
   border: 1px solid var(--colorOne);
   width: 150px;
@@ -112,77 +120,40 @@ h4 {
   color: var(--colorTwo);
 }
 
-h3 {
-  margin-top: 30px;
-  width: 120px;
-  margin-left: 50px;
+#bio {
+  margin: 0;
+  margin-top: 5%;
+  margin-left: 4%;
 }
 
-h5 {
-  font-size: 15px;
-  color: var(--colorThree);
+.display {
+  display: flex;
 }
 
-/* font size for paragraph section of my bio */
-p {
-  font-size: 20px;
+#my-image {
+  border: 2px solid var(--colorOne);
+  max-width: 35vh ;
 }
 
-/* shared properties for about me, projects, and contact me sections */
+#about-me {
+  margin-top: 2%;
+}
+
+
 .portfolio {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 100%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: var(--colorThree);
 }
 
-.my-bio {
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-}
-
-/* sets image properties to appropriate sizing */
-.my-image {
-  margin-top: 30px;
-  margin-left: 30px;
-  width: 20%;
-  padding: 1%;
-  border: 2px solid var(--colorOne);
-  border-radius: 20px;
-}
-
-/* styling changes for paragraph section */
-#about-me {
-  margin-top: 20px;
-  border: 20px; 
-}
-
-/* styling for the horizontal line separator */
 hr {
   margin-top: 20px;
   size: 3;
-  width: 100%;
+  width: 90%;
   color: var(--colorThree);
 }
 
-/* styling for the vertical line seperator */
-.vl {
-  border-left: 6px solid var(--colorThree);
-  left: 45%;
-  position: absolute;
-  height: 1300px;
-  
-}
-
-main {
-  width: 50%; 
-  float: right;
-  margin-right: 30px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.project-headers {
+  color: white;
 }
 
 .my-projects {
@@ -192,14 +163,26 @@ main {
 }
 
 #image-project1 {
-  width: 95%;
+  width: 45rem;
 }
-  
-/* pushed section closer to bottom of page */
-#contact-me {
-  margin-top: -20px;
+
+.rside-images {
+  width: 20rem;
+}
+
+#image-project2 {
+  width: 45rem;
+  margin-left: -10rem;
+}
+
+.lside-images {
+  width: 20rem;
+}
+
+/* #contact-me {
+  margin-top: 1%;
   font-size: 20px;
-}
+} */
 
 .socials {
   margin: 15px;
@@ -208,31 +191,49 @@ main {
 
 footer {
   text-align: center;
+  color: var(--colorThree);
 }
 
 footer p {
   font-size: 10px;
-  color: var(--colorThree);
 }
 
-@media screen and (max-width: 992px) {
-  .my-bio {
-    display: block;
+@media screen and (max-width: 769px) {
+  .bio-sec {
+    flex-direction: column;
+  }
+  
+  #about-me {
     width: 80%;
   }
 
-  .my-image {
-    height: 80%;
+  #image-project1 {
+    width: 90%;
+  }
+  
+  #image-project2 {
+    width: 90%;
+    margin: 0;
+  }
+
+}
+
+@media screen and (max-width: 1080px) {
+  .bio-sec {
+    flex-direction: column;
+  }
+  
+  #about-me {
     width: 80%;
   }
 
-  .my-projects {
-    display: block;
-    max-width: 100%;
-    max-height: 100vh;
+  #image-project1 {
+    width: 90%;
+  }
+  
+  #image-project2 {
+    width: 90%;
+    margin: 0;
   }
 
-  .vl {
-    display: none;
-  }
 }

@@ -25,8 +25,12 @@ Two youtubers I used for help:
 
 * [Kevin Powell](https://www.youtube.com/watch?v=FEmysQARWFU)
 
-This homework helped provide me with more exposure and allowed me to continue finding ways to use the inspect element 
-to see how I could fix my CSS. I had the most trouble making certain parts of my page be responsive to different media sizes.
+Resources used:
+
+* [Scroll Button](https://mdbootstrap.com/docs/standard/extended/back-to-top/)
+
+* [Bootstrap](https://getbootstrap.com/)
+
 
 
 ### Navigate my page

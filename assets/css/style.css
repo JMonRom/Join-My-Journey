@@ -18,7 +18,7 @@ body {
 /*********** Hero Background ***********/
 .hero-image {
   background-image: url("https://cdn.pixabay.com/photo/2021/11/04/06/24/ai-6767497_1280.jpg");
-  height: 50vh; background-position: center;
+  height: 88vh; background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -32,17 +32,18 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: bold;
+  text-shadow: 3px 3px var(--colorTwo)
 }
 
 /* ********** BIO SECTION********* */
                       
-/* .card{
+ .card{
   -moz-border-radius: 2%;
   -webkit-border-radius: 2%;
   border-radius: 2%;
   box-shadow: 5px 5px 0 rgba(0,0,0,0.08);
 }
-
+ 
 .profile .profile-body {
   padding: 20px;
   background: #f7f7f7;
@@ -71,18 +72,20 @@ body {
   margin-top: 60px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   color: #585f69;
   margin-top: 5px;
   text-shadow: none;
   font-weight: normal;
   font-family: 'Open Sans', sans-serif;
 }
+
 h2 {
   font-size: 24px;
   line-height: 33px;
 }
 
-p, li, li a {
+li, li a {
   color: #555;
-}                                                             */
+}
+

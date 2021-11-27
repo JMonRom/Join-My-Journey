@@ -24,10 +24,10 @@
             <a class="nav-link active" style="color: var(--colorFive)"  aria-current="page" href="#aboutMe">About Me</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" style="color: var(--colorFive)" href="#">Projects</a>
+            <a class="nav-link" style="color: var(--colorFive)" href="#myProjects">Projects</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link " style="color: var(--colorFive)"  href="#">Contact Me</a>
+            <a class="nav-link " style="color: var(--colorFive)"  href="#contactMe">Contact Me</a>
           </li>
         </ul>
       </div>
@@ -43,13 +43,13 @@
 
   
                         
- <div class="container bootstrap snippets bootdey">
-  <div class="profile card">
+ <div class="container bootstrap snippets bootdey" style="margin-bottom: 19rem;" id="aboutMe">
+  <div class="profile card" >
       <div class="profile-body">
           <div class="profile-bio">
               <div class="row">
-                  <div class="col-md-5 text-center" id="aboutMe">
-                      <img class="img-thumbnail md-margin-bottom-10 " src="./assets/images/Selfie.png" alt="Picture of myself" style="width: 25rem; height:26.875rem;">
+                  <div class="col-md-5 text-center" >
+                      <img class="img-thumbnail md-margin-bottom-10 " src="./assets/images/Selfie.png" alt="Picture of myself" style="width: 25rem; height:29rem;">
                   </div>
                   <div class="col-md-7" >
                       <h2>Jonathan Montes Romero</h2>
@@ -65,35 +65,32 @@
   </div>
 </div>                                                            
 
-<section class="text-center my-5">
+<section id="myProjects" class="text-center my-5">
 
   <!-- Section heading -->
-  <h2 class="h1-responsive font-weight-bold text-center my-5">Our best projects</h2>
+  <h2 class="h1-responsive font-weight-bold text-center my-5">A COLLECTION OF MY PROJECTS</h2>
   <!-- Section description -->
-  <p class="grey-text text-center w-responsive mx-auto mb-5">Duis aute irure dolor in reprehenderit in
-    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit est laborum.</p>
+  <p class="black-text text-center w-responsive mx-auto mb-5">This section displays a variety of projects I have worked on using JavaScript, ReactJS, SQL, Python and many other technologies !</p>
 
+  <div class="container container-fluid">
   <!-- Grid row -->
   <div class="row">
 
     <!-- Grid column -->
     <div class="col-md-12 mb-4">
-      <div class="card card-image" style="background-image: url(https://mdbcdn.b-cdn.net/img/Photos/Others/img%20%2832%29.jpg);">
-        <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
+      <div class="card card-image" style="background-color: var(--colorFour);">
+        <div class="text-black text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
           <div>
             <h6 class="purple-text">
               <i class="fas fa-plane"></i>
-              <strong> Travel</strong>
+              <strong> First Group Project</strong>
             </h6>
             <h3 class="py-3 font-weight-bold">
-              <strong>This is the card title</strong>
+              <strong>Animal Adoption</strong>
             </h3>
-            <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat,
-              laboriosam, voluptatem, optio vero odio nam sit officia accusamus minus error nisi architecto
-              nulla ipsum dignissimos. Odit sed qui, dolorum!
+            <p class="pb-3">My first group project consisted of four people colloborating on providing a user with a site that will allow them to browse through a selection of animals sent back using an API and be able to fill out an adoption form.
             </p>
-            <a class="btn btn-secondary btn-rounded btn-md"><i class="fas fa-clone left"></i> View project</a>
+            <a class="btn btn-success btn-rounded btn-md" href="file:///Users/john/Desktop/BC/Playground%20UCI/AnimalAdoptions/index.html" style="background-color: var(--colorFive);"><i class="fas fa-clone left"></i> VIEW PROJECT</a>
           </div>
         </div>
       </div>
@@ -101,22 +98,20 @@
     <!-- Grid column -->
 
     <!-- Grid column -->
-    <div class="col-md-6 mb-md-0 mb-4">
-      <div class="card card-image" style="background-image: url(https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/6-col/img%20%2873%29.jpg);">
-        <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
+    <div class="col-md-6 mb-md-0 mb-4 ">
+      <div class="card card-image" style="background-color: var(--colorFour);">
+        <div class="text-black text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
           <div>
-            <h6 class="pink-text">
+            <h6 class="pink-text" >
               <i class="fas fa-chart-pie"></i>
-              <strong> Marketing</strong>
+              <strong> Express.js and Node.js Note Taker</strong>
             </h6>
             <h3 class="py-3 font-weight-bold">
-              <strong>This is the card title</strong>
+              <strong>Note Taker</strong>
             </h3>
-            <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat,
-              laboriosam, voluptatem, optio vero odio nam sit officia accusamus minus error nisi architecto
-              nulla ipsum dignissimos. Odit sed qui, dolorum!
+            <p class="pb-3">This site allows user to use a save note feature that will take in a string of notes and properly save them to refer back to at a later point.
             </p>
-            <a class="btn btn-pink btn-rounded btn-md"><i class="fas fa-clone left"></i> View project</a>
+            <a class="btn btn-success btn-rounded btn-md" style="background-color: var(--colorFive);"href="https://mighty-beyond-43329.herokuapp.com/"><i class="fas fa-clone left"></i> VIEW PROJECT</a>
           </div>
         </div>
       </div>
@@ -125,151 +120,129 @@
 
     <!-- Grid column -->
     <div class="col-md-6">
-      <div class="card card-image" style="background-image: url(https://mdbcdn.b-cdn.net/img/Photos/Horizontal/City/6-col/img%20%2847%29.jpg);">
-        <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
+      <div class="card card-image" style="background-color: var(--colorFour);">
+        <div class="text-black text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
           <div>
             <h6 class="green-text">
               <i class="fas fa-eye"></i>
-              <strong> Entertainment</strong>
+              <strong> JavaScript, HTML, and CSS Quiz</strong>
             </h6>
             <h3 class="py-3 font-weight-bold">
-              <strong>This is the card title</strong>
+              <strong>Take a Quiz</strong>
             </h3>
-            <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat,
-              laboriosam, voluptatem, optio vero odio nam sit officia accusamus minus error nisi architecto
-              nulla ipsum dignissimos. Odit sed qui, dolorum!
+            <p class="pb-3">This is a short quiz that uses JS to move through questions and allow for user input of score. 
             </p>
-            <a class="btn btn-success btn-rounded btn-md"><i class="fas fa-clone left"></i> View project</a>
+            <a class="btn btn-success btn-rounded btn-md" style="background-color: var(--colorFive);"href="https://jmonrom.github.io/Quiz-Time/"><i class="fas fa-clone left"></i> VIEW PROJECT</a>
           </div>
         </div>
       </div>
     </div>
     <!-- Grid column -->
 
-  </div>
-  <!-- Grid row -->
+    <!-- Grid column -->
+    <div class="col-md-6 mb-md-0 mb-4 mt-4">
+      <div class="card card-image" style="background-color: var(--colorFour);">
+        <div class="text-black text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
+          <div>
+            <h6 class="pink-text">
+              <i class="fas fa-chart-pie"></i>
+              <strong> JavaScript, HTML, and CSS</strong>
+            </h6>
+            <h3 class="py-3 font-weight-bold">
+              <strong>Random Password Generator</strong>
+            </h3>
+            <p class="pb-3">This site allows a user to put in some info from prompted questions to generate a secure and random password.
+            </p>
+            <a class="btn btn-success btn-rounded btn-md" style="background-color: var(--colorFive);"href="https://jmonrom.github.io/Security-Password-Generator/"><i class="fas fa-clone left"></i> VIEW PROJECT</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Grid column -->
 
+    <!-- Grid column -->
+    <div class="col-md-6 mt-4">
+      <div class="card card-image" style="background-color: var(--colorFour);">
+        <div class="text-black text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
+          <div>
+            <h6 class="green-text">
+              <i class="fas fa-eye"></i>
+              <strong> JS, JQuery HTML, and CSS</strong>
+            </h6>
+            <h3 class="py-3 font-weight-bold">
+              <strong>Daily Planner</strong>
+            </h3>
+            <p class="pb-3">On this site the user is able to use an efficient daily planner to plan out their days and be provided with color coded past, present, future time slots. 
+            </p>
+            <a class="btn btn-success btn-rounded btn-md" style="background-color: var(--colorFive);"href="https://jmonrom.github.io/daily-planner/"><i class="fas fa-clone left"></i> VIEW PROJECT</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Grid column -->
+    <div class="col-md-12 mb-4 mt-4">
+      <div class="card card-image" style="background-color: var(--colorFour);">
+        <div class="text-black text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
+          <div>
+            <h6 class="purple-text">
+              <i class="fas fa-plane"></i>
+              <strong> Second Group Project</strong>
+            </h6>
+            <h3 class="py-3 font-weight-bold">
+              <strong>Waste No More</strong>
+            </h3>
+            <p class="pb-3">My second group project was aimed at creating a site that would allow a user to sign up for an account and be able to view many gardens within the area so that they can recieve information about a chosen garden.
+            </p>
+            <a class="btn btn-success btn-rounded btn-md" style="background-color: var(--colorFive);"href="https://wastenomore.herokuapp.com/"><i class="fas fa-clone left"></i> VIEW PROJECT</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Grid column -->
+  <!-- Grid row -->
+  </div>
+  </div>
 </section>
 
-    <!--lightbox style popup goes here-->
+<div class="container" id="contactMe">
+<div class="row display my-4">
+  <div class="col">
+    <h4 class="project-headers" id="contact-me">Contact Me: </h4>
 
+    <a href="mailto:jmontes8686@gmail.com" class="socials mx-4">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="var(--colorFour)" width="50" height="50" viewBox="0 0 24 24"><path d="M22.288 21h-20.576c-.945 0-1.712-.767-1.712-1.712v-13.576c0-.945.767-1.712 1.712-1.712h20.576c.945 0 1.712.767 1.712 1.712v13.576c0 .945-.767 1.712-1.712 1.712zm-10.288-6.086l-9.342-6.483-.02 11.569h18.684v-11.569l-9.322 6.483zm8.869-9.914h-17.789l8.92 6.229s6.252-4.406 8.869-6.229z"/></svg>
+    </a>
 
-<!--contains header name and nav bar options  -->
-<!-- <header class="main-header">
-  <div class="navigate">
-    <h1>Jonathan's Portfolio</h1>
-    <nav>
-      <ul>
-        <li>
-          <a href="#about-me">About Me</a>
-        </li>
-        <li>
-          <a href="#projects">Projects</a>
-        </li>
-        <li>
-          <a href="#contact-me">Contact Me</a>
-        </li>
-      </ul>
-    </nav>
+    <a href="https://www.linkedin.com/in/jonathan-montes-romero-07b1b6214/" class="socials mx-4">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="var(--colorFour)" width="50" height="50" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+    </a>
+
+    <a href="https://github.com/JMonRom" class="socials mx-4">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="var(--colorFour)" width="50" height="50" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+    </a>
   </div>
-</header>
-
-<section id="bio" class="container-fluid">
-  <div class="row display">
-    <div class="col-4 my-bio">
-      <img id="my-image" src="./assets/images/Selfie.png" alt="Jonathan's selfie">
-    </div>
-    <aside class="portfolio col-6" id="about-me">
-      <h2>About me</h2>
-      <p>Welcome to my page, my name is <strong>Jonathan Montes Romero</strong> and I am excited for you to join my coding journey. I was born in Mexico, but have lived in Orange County, CA for about 21 years. I went to University of California, Santa Barbara for my Bachelors in Sociology and minor in Education. I decided to expand my skill sets by chalenging myself to learn about web development through the UCI coding bootcamp. 
-      <br>
-      <br>
-      This page is dedicated to show my knowledge, experience and progress as I continue to learn how to program. I have deployed a few projects to help me gain an understanding of coding which you can browse on this page. I will continue to update the page as more projects are completed.</p>
-    </aside>
-  </div>
-
-  <hr>
-
-    <div class="row">
-      <div class="col">
-        <h3>Projects</h3>
-      </div>
-    </div>
-
-  <div class="row display">
-    <div class="col-sm-6 col-md-8 mt-5" >
-      <p id="projects" class="project-headers">My First Project</p>
-      <a href="file:///Users/john/Desktop/BC/Playground%20UCI/AnimalAdoptions/index.html">
-        <img id="image-project1" class="my-projects" src="./assets/images/Project_One.png" alt="My first project">
-      </a>
-    </div>
-
-    <div class="col-6 col-md-4 mt-5">
-      <div class="me-5">
-        <p class="project-headers">Take a Quiz</p>
-        <a href="https://jmonrom.github.io/Quiz-Time/">
-          <img class="my-projects rside-images" src="./assets/images/Quiz_Homework.png" alt="Basic JS coding quiz">
-        </a>
-        <p class="project-headers mt-3">Password Generator</p>
-        <a href="https://jmonrom.github.io/Security-Password-Generator/">
-          <img class="my-projects rside-images" src="./assets/images/Password_Generator.png" alt="Website to generate random password">
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <div class="row display">
-    <div class="col mt-5">
-      <div class="me-5">
-        <p class="project-headers">Daily Planner</p>
-        <a href="#">
-          <img class="my-projects lside-images" src="./assets/images/Quiz_Homework.png" alt="Basic JS coding quiz">
-        </a>
-        <p class="project-headers mt-3">Note Taker</p>
-        <a href="#">
-          <img class="my-projects lside-images" src="Note_Taker.png" alt="Website to take and save notes">
-        </a>
-      </div>
-    </div>
-    
-    <div class="col-sm-6 col-md-8 mt-5" >
-      <p id="projects" class="project-headers">My First Project</p>
-      <a href="file:///Users/john/Desktop/BC/Playground%20UCI/AnimalAdoptions/index.html">
-        <img id="image-project2" class="my-projects" src="./assets/images/Project_Two.png" alt="My second group project">
-      </a>
-    </div>
-    </div>
-  </div>
-
-  <hr>
-
-  <div class="row display mt-5">
-    <div class="col">
-      <h4 class="project-headers" id="contact-me">Contact Me</h4>
-
-      <a href="mailto:jmontes8686@gmail.com" class="socials">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M22.288 21h-20.576c-.945 0-1.712-.767-1.712-1.712v-13.576c0-.945.767-1.712 1.712-1.712h20.576c.945 0 1.712.767 1.712 1.712v13.576c0 .945-.767 1.712-1.712 1.712zm-10.288-6.086l-9.342-6.483-.02 11.569h18.684v-11.569l-9.322 6.483zm8.869-9.914h-17.789l8.92 6.229s6.252-4.406 8.869-6.229z"/></svg>
-      </a>
-
-      <a href="https://www.linkedin.com/in/jonathan-montes-romero-07b1b6214/" class="socials">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-      </a>
-  
-      <a href="https://github.com/JMonRom" class="socials">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-      </a>
-    </div>
-  </div>
+</div>
+</div>
 
   <hr class="mt-5">
 
+  <div class="container">
   <footer>
     <h5>Made by Jonathan</h5>
     <p>
       &copy; 2021 Jonathan's Website, Inc.
     </p>
   </footer>
-</section> -->
+  </div>
+</section> 
+
+<button
+        type="button"
+        class="btn btn-success btn-floating btn-lg"
+        id="btn-back-to-top"
+        >
+  <i class="fas fa-arrow-up"></i>
+</button>
 <!-- JavaScript Bundle with Popper -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

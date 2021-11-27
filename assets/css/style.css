@@ -101,3 +101,10 @@ footer p {
   display: none;
   background-color: var(--colorFour);
 }
+
+#resume {
+position: relative;
+text-align: center;
+margin-top: 8rem;
+margin-bottom: 8rem;
+}

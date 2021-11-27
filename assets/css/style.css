@@ -1,8 +1,9 @@
 :root {
-  --colorOne: #8c65d3;
-  --colorTwo: #004159;
-  --colorThree: #ffff; 
-  --colorFour: #222;
+  --colorOne: #F3E6D4;
+  --colorTwo: #A11212;
+  --colorThree: #FFFFFF; 
+  --colorFour: #593761;
+  --colorFive: #FEA904;
 }
 
 html, body {
@@ -11,229 +12,77 @@ html, body {
 }
 
 body {
-  /* sets font family for entire body of page */
-  font-family: Verdana, Geneva, Tahoma;
-  margin: 0;
-  background: var(--colorFour);
-  font-weight: 300;
+  background-color: var(--colorOne) !important; 
 }
 
-/* sets width and margin for header */
-.navigate {
-  width: 90%;
-  margin: 0 auto;
-}
-
-/* sets background color for header */
-.main-header {
-  background: var(--colorOne);
-}
-
-.main-header::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
-/* sets nav to the right in header */
-nav {
-  float: right;
-}
-
-/* sets margin, padding, and removes bullet points from nav */
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-
-nav li {
-  /* sets display of nav side by side */
-  display: inline-block;
-  /* sers spacing between nav bar option* */
-  margin-left: 70px;
-  /*sets top padding of nav bar to max of 30px */
-  padding-top: 30px;
-  /*  */
+/*********** Hero Background ***********/
+.hero-image {
+  background-image: url("https://cdn.pixabay.com/photo/2021/11/04/06/24/ai-6767497_1280.jpg");
+  height: 50vh; background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
 }
 
-nav a {
-  /* changes text color of nav bar items */
-  color: var(--colorTwo);
-  /* removes bullet points from listed items */
-  text-decoration: none;
-  /* sets nav bar words to be capitalized */
-  text-transform: uppercase;
-  font-size: 20px;
-}
-
-/* sets text color to black when you hover over nav bar options */
-nav a:hover {
-  color: #222;
-}
-
-nav a::before {
-  content: '';
-  display: block;
-  /* sets height of black line above nav bar options */
-  height: 4px;
-  /* sets width of black line to 0, making it not visible to add hover effect */
-  width: 0%;
-  background-color: #222;
-  /* sets the black line relative to contents of nav li */
+.hero-text {
+  color: var(--colorFive);
+  text-align: center;
   position: absolute;
-  /* sets black line at the top of page */
-  top: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
 }
 
-/* provides hover effect and makes black line visible above nav options */
-nav a:hover::before {
-  /* sets width of black line when hovered over */
-  width: 100%;
+/* ********** BIO SECTION********* */
+                      
+/* .card{
+  -moz-border-radius: 2%;
+  -webkit-border-radius: 2%;
+  border-radius: 2%;
+  box-shadow: 5px 5px 0 rgba(0,0,0,0.08);
 }
 
-/* allows navigation to navbar selections */
-a {
-  color: #ffffff;
-  text-decoration: none;
+.profile .profile-body {
+  padding: 20px;
+  background: #f7f7f7;
 }
 
-h1 {
-  float: left;
-  color: var(--colorTwo);
+.profile .profile-bio {
+  background: #fff;
+  position: relative;
+  padding: 15px 10px 5px 15px;
 }
 
-h3 {
-  margin-top: 2%;
-}
-
-h2,
-h3 {
-  color: var(--colorThree);
-  border: 1px solid var(--colorOne);
-  width: 150px;
-  border-radius: 25px;
+.profile .profile-bio a {
+  left: 50%;
+  bottom: 20px;
+  margin: -62px;
   text-align: center;
-  background-color: var(--colorOne);
-  color: var(--colorTwo);
+  position: absolute;
 }
 
-#bio {
-  margin: 0;
-  margin-top: 5%;
-  margin-left: 4%;
+.profile .profile-bio h2 {
+  margin-top: 0;
+  font-weight: 200;
 }
 
-.display {
-  display: flex;
+.profile {
+  margin-top: 60px;
 }
 
-#my-image {
-  border: 2px solid var(--colorOne);
-  max-width: 35vh ;
+h1, h2, h3, h4, h5, h6 {
+  color: #585f69;
+  margin-top: 5px;
+  text-shadow: none;
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+}
+h2 {
+  font-size: 24px;
+  line-height: 33px;
 }
 
-#about-me {
-  margin-top: 2%;
-}
-
-
-.portfolio {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: var(--colorThree);
-}
-
-hr {
-  margin-top: 20px;
-  size: 3;
-  width: 90%;
-  color: var(--colorThree);
-}
-
-.project-headers {
-  color: white;
-}
-
-.my-projects {
-  padding: 10px;
-  border: 2px solid var(--colorOne);
-  border-radius: 20px;
-}
-
-#image-project1 {
-  width: 45rem;
-}
-
-.rside-images {
-  width: 20rem;
-}
-
-#image-project2 {
-  width: 45rem;
-  margin-left: -10rem;
-}
-
-.lside-images {
-  width: 20rem;
-}
-
-/* #contact-me {
-  margin-top: 1%;
-  font-size: 20px;
-} */
-
-.socials {
-  margin: 15px;
-  margin-left: 4px;
-}
-
-footer {
-  text-align: center;
-  color: var(--colorThree);
-}
-
-footer p {
-  font-size: 10px;
-}
-
-@media screen and (max-width: 769px) {
-  .bio-sec {
-    flex-direction: column;
-  }
-  
-  #about-me {
-    width: 80%;
-  }
-
-  #image-project1 {
-    width: 90%;
-  }
-  
-  #image-project2 {
-    width: 90%;
-    margin: 0;
-  }
-
-}
-
-@media screen and (max-width: 1080px) {
-  .bio-sec {
-    flex-direction: column;
-  }
-  
-  #about-me {
-    width: 80%;
-  }
-
-  #image-project1 {
-    width: 90%;
-  }
-  
-  #image-project2 {
-    width: 90%;
-    margin: 0;
-  }
-
-}
+p, li, li a {
+  color: #555;
+}                                                             */

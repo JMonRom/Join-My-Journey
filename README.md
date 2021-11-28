@@ -2,22 +2,15 @@
 
 # Join-My-Journey
 
-The task was to produce a website from scratch that contains all my progress and projects as a web developer. 
+<h1 align="center"># Portfolio </h1>
 
-![PNG of my Portfolio Website](assets/images/jmonrom.github.io_Join-My-Journey_.png)
+![badge](https://img.shields.io/badge/license-MIT-red) <br />
   
 --------------------------------------
 
 ## The Process 
 
-Building this website from scratch presented some challenges because I would notice that some code would break
-and I would have to go back and try to fix the issue. I looked through past activities to get an idea of things
-that could work and how to resolve certain issues. Although a lot of the activities did provide a starting point
-I still found myself having to google solutions or find codes to fit how I wanted my page set up. 
-
-I also watched some Youtube tutorials for page set ups that would provide a better look to the website I was 
-creating. Below I have included the links to the two youtuber pages that provided further assistance in completing 
-the site to fit my current understanding of HTML and CSS.
+The task was to update my portfolio page and add some new features and keep uploading completed projects so that I can continue to gain experience. Redoing the layout and adding different uses from bootstrap was really fun to work with because I noticed how much improvement my understanding of these tools has reached. The site should display a navbar with scrolling options to bio, projects, resume, and contact bar. 
 
 Two youtubers I used for help:
 
@@ -31,13 +24,41 @@ Resources used:
 
 * [Bootstrap](https://getbootstrap.com/)
 
+Link to deployed portfolio:
+
+* [Portfolio](file:///Users/john/Desktop/BC/my-work/Join-My-Journey/index.html#myProjects)
+
+* [Portfolio PNG](./assets/images/portfolio.png)
 
 
-### Navigate my page
 
-Here is a link to my deployed page that I will continue to update and fix.
+ ## Table of Contents
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
-[Join my Journey Weboage](https://jmonrom.github.io/Join-My-Journey/)
+  ## License
+
+  ![badge](https://img.shields.io/badge/license-MIT-red) 
+
+  <br />
+
+  This application is covered under the MIT license.
+
+  ## Contributing
+
+  Jonathan Montes Romero
+
+  ## Tests
+
+  NA
+
+  ## Questions
+
+  https://github.com/JMonRom
+
+  jmontes8686@gmail.com
 
 
 
